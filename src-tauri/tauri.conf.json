@@ -4,8 +4,8 @@
     "version": "0.1.0"
   },
   "build": {
-    "distDir": "https://github.com/kimlimjustin/wiz#how-to-use",
-    "devPath": "https://github.com/kimlimjustin/wiz#how-to-use",
+    "distDir": "./index.html",
+    "devPath": "./index.html",
     "beforeDevCommand": "",
     "beforeBuildCommand": ""
   },

@@ -43,7 +43,11 @@ fn main() {
       const rootStyle = document.createElement('style')
       rootStyle.innerHTML='::-webkit-scrollbar {display: none;}'
       document.head.appendChild(rootStyle)
-      
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+          window.__TAURI__.window.appWindow.close()
+        }
+      })
       })()").unwrap();
   })
     .run(tauri::generate_context!())

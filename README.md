@@ -1,10 +1,10 @@
-<center>
+<div align="center">
 
-![Icon](src-tauri\icons\icon.png)
+<img src="src-tauri/icons/icon.png" alt="Icon" align="center" />
 <p align="center"><span><b>Wiz</b>, A simple, frameless, lightweight browser for screenshots.</span></p>
 
 [![Windows Support](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/kimlimjustin/wiz/releases) [![Ubuntu Support](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://github.com/kimlimjustin/wiz/releases) [![Arch Linux Support](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://github.com/kimlimjustin/wiz/releases) [![Windows Support](https://img.shields.io/badge/MACOS-adb8c5?style=for-the-badge&logo=macos&logoColor=white)](https://github.com/kimlimjustin/wiz/releases)
-</center>
+</div>
 
 ![Demo](images/demo.png)
 ## Intallation
@@ -32,4 +32,4 @@ There is a little trick to drag Wiz. There is a hidden dragging area in the top 
 ![Dragging wiz](images/dragging.png)
 
 ### Closing Wiz
-You can close Wiz by killing it via task manager.
+You can close Wiz by killing it by press the `Esc` button.
